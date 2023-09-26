@@ -444,3 +444,15 @@ a:active {
 .content {
   text-align: left;
 }
+
+footer {
+    background-color: #333; /* Replace with your desired background color */
+    color: white; /* Text color for better readability */
+    text-align: center; /* Center-align text */
+    padding: 20px; /* Add some padding for spacing */
+}
+
+.footer-content {
+    max-width: 800px; /* Set a maximum width for the content */
+    margin: 0 auto; /* Center the content horizontally */
+}
