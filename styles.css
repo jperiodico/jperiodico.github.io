@@ -51,10 +51,8 @@ body {
 }
 
 
-h1,
-h2,
-h3 {
-  color: #FF6600;
+h1, h2, h3 {
+  color: #FF6000;
 }
 
 ul {
@@ -244,7 +242,6 @@ img {
 
 .label {
   font-weight: bold;
-  color: #333333;
 }
 
 
@@ -416,8 +413,7 @@ img {
     margin-bottom: 2rem;
   }
 
-  .nav__img {}
-
+ 
   .nav__link {
     font-size: var(--normal-font-size);
   }
