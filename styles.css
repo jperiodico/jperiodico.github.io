@@ -1,5 +1,6 @@
 /*=============== GOOGLE FONTS ===============*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
 /*=============== VARIABLES CSS ===============*/
 :root {
   --header-height: 3.5rem;
@@ -45,12 +46,15 @@ html {
 body {
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  color: var(--text-color);
-  overflow-x: hidden;
+  color: #000000;
+  overflow-x: hidden
 }
 
-h1, h2, h3 {
-  color: var(--title-color);
+
+h1,
+h2,
+h3 {
+  color: #FF6600;
 }
 
 ul {
@@ -83,7 +87,7 @@ img {
 
 /*=============== HEADER Y NAV ===============*/
 .nav {
-  background-color: var(--container-color-dark);
+  background-color: #001f3f;
   padding-top: 2rem;
   position: fixed;
   top: 0;
@@ -179,7 +183,7 @@ img {
 
 .header {
   width: 100%;
-  background-color: var(--body-color);
+  background-color: #EAEAEA;
   position: fixed;
   top: 0;
   left: 0;
@@ -193,8 +197,9 @@ img {
   align-items: center;
 }
 
-.header__logo, .header__toggle {
-  color: var(--title-color);
+.header__logo,
+.header__toggle {
+  color: #333333;
 }
 
 .header__logo {
@@ -229,7 +234,8 @@ img {
   border-radius: 50%;
 }
 
-.enhypen, .enhypenlogo {
+.enhypen,
+.enhypenlogo {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -238,6 +244,7 @@ img {
 
 .label {
   font-weight: bold;
+  color: #333333;
 }
 
 
@@ -257,9 +264,13 @@ div.scroll-container img {
   height: 50px;
 }
 
-.mySlides {display: none
+.mySlides {
+  display: none
 }
-img {vertical-align: middle;}
+
+img {
+  vertical-align: middle;
+}
 
 /* Slideshow container */
 .slideshow-container {
@@ -269,7 +280,8 @@ img {vertical-align: middle;}
 }
 
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -291,8 +303,9 @@ img {vertical-align: middle;}
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text */
@@ -327,7 +340,8 @@ img {vertical-align: middle;}
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active,
+.dot:hover {
   background-color: #717171;
 }
 
@@ -339,18 +353,24 @@ img {vertical-align: middle;}
 
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
 }
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
+
+  .prev,
+  .next,
+  .text {
+    font-size: 11px
+  }
 }
-
-
-
-
 
 
 /*=============== BREAKPOINTS ===============*/
@@ -375,42 +395,48 @@ img {vertical-align: middle;}
     margin-left: auto;
     margin-right: auto;
   }
+
   .section {
     padding: 7rem 0 2rem;
   }
+
   .header__nav {
     height: calc(var(--header-height) + 1.5rem);
   }
+
   .nav__shape {
     width: 350px;
     height: 350px;
   }
+
   .nav__mask {
     width: 100px;
     height: 100px;
     border-radius: 2rem;
     margin-bottom: 2rem;
   }
-  .nav__img {
-   
-  }
+
+  .nav__img {}
+
   .nav__link {
     font-size: var(--normal-font-size);
   }
+
   .nav__link i {
     font-size: 5rem;
   }
 }
 
 
-a:focus, a:active {
+a:focus,
+a:active {
   outline: none;
   -webkit-tap-highlight-color: transparent;
 }
 
 .snstext {
   padding-left: 10px;
-  color:blue;
+  color: #0074D9;
 }
 
 .sns {
@@ -418,7 +444,7 @@ a:focus, a:active {
   align-items: center;
   justify-content: center;
 }
+
 .content {
   text-align: left;
 }
-
